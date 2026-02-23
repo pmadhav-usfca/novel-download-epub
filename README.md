@@ -32,7 +32,7 @@ Run file with arguments: -b (book/file name) -s (start-chapter), -e (end-chapter
 ## Example python command usage
 ```bash
 python wuxia_cli.py \
- -b "MartialWorld" \
+ -b "The Creatures That We Are" \
  -s 1 \
  -e 10 \
  --base-url "https://www.wuxiaworld.com/novel/the-creature-we-are/tcwa-chapter-"
