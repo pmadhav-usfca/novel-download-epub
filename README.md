@@ -35,6 +35,6 @@ python wuxia_cli.py \
  -b "MartialWorld" \
  -s 1 \
  -e 10 \
- --base-url "[https://example.com/martial-world/chapter-](https://www.wuxiaworld.com/novel/the-creature-we-are/tcwa-chapter-)"
+ --base-url "https://www.wuxiaworld.com/novel/the-creature-we-are/tcwa-chapter-"
 
 
