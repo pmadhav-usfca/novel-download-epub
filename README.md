@@ -1,6 +1,16 @@
 # novel-download-epub
 Make it easier to download *free books* available from novelfull or wuxia world. Working to add more download locations and containarizing better.
-<br>
+
+# Requirements - already python, git & conda installed 
+(working on making it a exe file)
+```bash
+git clone https://github.com/pmadhav-usfca/novel-download-epub.git
+cd novel-download-epub
+# Create conda/python virtual environment if required
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+Now you'll be able to run the example commands given below.
 
 # novelfull2epub.py - Most updated
 Added load of functions to populate all the epub metadata and make user arguments better. \n
@@ -21,7 +31,7 @@ Run file with arguments: -b (book/file name) -s (start-chapter), -e (end-chapter
 
 ## Example python command usage
 ```bash
-python3 wuxia_cli.py \
+python wuxia_cli.py \
  -b "MartialWorld" \
  -s 1 \
  -e 10 \
